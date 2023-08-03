@@ -22,15 +22,21 @@ main {
 }
 
 main > div {
+    text-align: center;
+    display: block;
+}
+
+main > div > div {
     max-width: 80px;
     padding: 10px;
+    display: inline-block;
 }
 
-main > div > img {
-    width: 80px;
+main > div > div > img {
+    width: 60px;
 }
 
-main > div > h1 {
-    font-size: 1.4em;
+main > div > div > h1 {
+    font-size: 1.1em;
     text-align: center;
 }
